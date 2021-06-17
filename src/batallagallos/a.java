@@ -5,8 +5,11 @@
  */
 package batallagallos;
 
+import java.util.List;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.Random;
 import javax.swing.JFrame;
 import javax.swing.Timer;
 
@@ -19,17 +22,20 @@ public class a extends javax.swing.JFrame {
     /**
      * Creates new form a
      */
+    List<String> palabras = new ArrayList<String>(List.of("Altar","Administrar","Afectar","Apoyar","Arreglar","Celebrar","Charlar","Combinar","Contactar","Contestar","Demostrar","Derrumbar","Desencadenar","Erradicar","Escapar","Estudiar","Expulsar","Forrar","Impacientar","Llenar","Modificar","Organizar","Reiniciar","Reparar","Saquear","Silenciar","Simplificar","Soltar","Iluminar","Ampliar","Chulear","Condimentar","Cuidar","Declarar","Deleitar","Denegar","Desordenar","Despistar","Destinar","Disparar","Impresionar","Jurar","Ligar","Machacar","Marear","Prolongar","Rechazar","Registrar","Valorar","Volar","Delimitar","Pasar","Hogar","Abandonar","Ahogar","Anticipar","Anunciar","Callar","Cascar","Cesar","Curiosear","Diseñar","Empaquetar","Empujar","Espabilar","Estrellar","Exportar","Fabricar","Invitar","Liberar","Progresar","Quebrantar","Racanear","Reinstalar","Renunciar","Revitalizar","Trabajar","Collar","Acaparar","Agradar","Concursar","Contemplar","Cosechar","Desinflar","Falsificar","Ocupar","Asegurar","Alertar","Subastar","Subrayar","Superar","Ayer","Mujer","Absorber","Aparecer","Caer","Carecer","Comer","Cometer","Conceder","Convencer","Defender","Desaparecer","Desfallecer","Detener","Disolver","Distraer","Escoger","Nacer","Parecer","Romper","Socorrer","Valer","Vencer","Ver","Llover","Alquiler","Mercader","Aprender","Compadecer","Comparecer","Comprender","Conocer","Descender","Doler","Encender","Envejecer","Extraer","Mover","Obtener","Ofrecer","Perder","Prender","Pretender","Proceder","Proveer","Remover","Responder","Retroceder","Saber","Aseo","Balanceo","Boxeo","Cacareo","Cachondeo","Coqueteo","Cotilleo","Papeleo","Paseo","Picoteo","Pisoteo","Rastreo","Regateo","Ronroneo","Saqueo","Tiroteo","Vapuleo","Veraneo","Bromeo","Piropeo","Poseo","Proveo","Saboreo","Saboteo","Telefoneo","Tonteo","Actualidad","Compatibilidad","Creatividad","Dificultad","Dignidad","Generosidad","Inferioridad","Irresponsabilidad","Nacionalidad","Necesidad","Obscuridad","Oportunidad","Piedad","Selectividad","Sensibilidad","Voluntad","Vulgaridad","Aterrador","Coliflor","Conquistador","Coordinador","Corredor","Desenterrador","Devastador","Diseñador","Divulgador","Error","Gladiador","Historiador","Humor","Impostor","Leñador","Locomotor","Luchador","Olor","Patinador","Profesor","Temporizador","Terror","Volador","Acogedor","Adiestrador","Admirador","Agotador","Borrador","Cursor","Defensor","Entrenador","Escultor","Esquiador","Evasor","Helador","Ladrador","Licor","Mirador","Operador","Patrocinador","Perdedor","Pintor","Portador","Probador","Progenitor","Reactor","Receptor","Reconquistador","Reparador","Ruiseñor","Seleccionador","Simulador","Sucesor","Sudor","Triunfador","Vapor","Ventilador","Aportación","Atracción","Boquerón","Cañón","Carbón","Contradicción","Conversación","Convicción","División","Evasión","Exclusión","Gritón","Infección","Motivación","Negación","Ocupación","Ración","Recuperación","Revolución","Solución","Invasión","Adoración","Cartón","Ciclón","Civilización","Colisión","Combinación","Decoración","Edición","Explosión","Munición","Nutrición","Precisión","Prisión","Protección","Timón","Tradición","Varón","Resfriado","Amigo","Hermano","Criatura","Ser","Vida","Nacimiento","Naturaleza","Campo","Bosque","Selva","Jungla","Desierto","Costa","Playa","Río","Perro","Oveja","Mono","Ratón","Conejo","Dragón","Ciervo","León","Elefante","Gorrión","Sardina","Atún","Calamar","Insecto","Mosquito","Lagarto","Serpiente","Cocodrilo","Oro","Plata","Plomo","Sal","Barro","Mercado","Servicio","Ciencia","Historia","Geografía","Educación","Deporte","Carrera","Competición","Ayuda","Tema","Caso","Creación","Destrucción","Sentido","Sensación","Conciencia","Percepción","Fuerza","Potencia","Presencia","Existencia","Experiencia","Posibilidad","Probabilidad","Verdad","Mentira","Razón","Acierto","Equivocación","Falta","Significado","Carácter","Personalidad","Pensamiento","Memoria","Recuerdo","Deseo","Alegría","Manual","Purga","España","Europa","Teléfono","Número","Bobo","Juez","Libros","Refrescos","Consola","Mando","Presidente","Ministro","Monarca","Botiquín","Pistola","Gancho","Espada","Arco","Flecha","Armadura","Roble","Aeropuerto","Ladrido","Lamborghini","Adidas","Nike","Oso","Tanque","Avioneta","Arcoíris","Calendario","Ubrique","Cádiz","Cerveza","Cristal","Caramelo","Tenis","Fútbol","Baloncesto","Roca","Papel","Tijeras","Piedra","Mineral","Agua","Derrota","Victoria","Ejército","Electricidad","Impuestos","Fruta","Familia","Templo","Monumento","Muralla","Muro","Ventana","Barrotes","Bandera"));
+    List<String> tematica = new ArrayList<String>(List.of("Futbol", "Salud", "Alcohol", "Universidad", "Historia", "Arte", "Libertad", "Naturaleza", "Religión", "Robos", "Superhéroes", "Villanos", "España", "Andalucía"," Animales", "Videojuegos", "Series", "Deportes", "Guerra", "Monumentos", "Internet", "Educación", "Bullying", "Comida", "Paranormal", "Ropa", "Marcas", "Coches", "Armas", "Tiempo", "Cádiz", "Tecnología", "Famosos", "Primavera", "Verano", "Invierno", "Otoño", "Playa", "Dinero", "Amor", "Juguetes", "Magia", "Música", "Sentimientos","Muerte","Vida","Dibujos Animados","Ciudades","Países"));
+    int k;
     String sesenta = "60";
     String cientoVeinte = "120";
     String cientoOchenta = "180";
     Timer t;
     public a() {
-        this.k = jLabel3.getText();
         initComponents();
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setLocationRelativeTo(this);
     }
-   
+    
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -429,27 +435,32 @@ public class a extends javax.swing.JFrame {
     //Botón que cambia el cronómetro de la pantalla crono
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
        jLabel3.setText(sesenta);
+       k = Integer.parseInt(sesenta);
     }//GEN-LAST:event_jButton1ActionPerformed
     //Botón que cambia el cronómetro de la pantalla crono
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         jLabel3.setText(cientoVeinte);
+        k = Integer.parseInt(cientoVeinte);
     }//GEN-LAST:event_jButton2ActionPerformed
     //Botón que cambia el cronómetro de la pantalla crono
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         jLabel3.setText(cientoOchenta);
+        k = Integer.parseInt(cientoOchenta);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     //Botón que cambia el crono de la pantalla palabras
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        jLabel6.setText("60");
+        jLabel6.setText(sesenta);
+        k = Integer.parseInt(sesenta);
     }//GEN-LAST:event_jButton4ActionPerformed
     
     //Botón que cambia el crono de la pantalla palabras
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        jLabel6.setText("120");
+        jLabel6.setText(cientoVeinte);
+        k = Integer.parseInt(cientoVeinte);
     }//GEN-LAST:event_jButton5ActionPerformed
     
-String k;    
+  
     //Botón que inicia el cronómetro de la pantalla crono
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         t = new Timer(1000, new ActionListener() {
@@ -463,11 +474,13 @@ String k;
     }//GEN-LAST:event_jButton6ActionPerformed
     //Botón que pone a 60 el crono de tematica
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        jLabel10.setText("60");
+        jLabel10.setText(sesenta);
+        k = Integer.parseInt(sesenta);
     }//GEN-LAST:event_jButton7ActionPerformed
     //Botón que pone a 120 el crono de tematica
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        jLabel10.setText("120");
+        jLabel10.setText(cientoVeinte);
+        k = Integer.parseInt(cientoVeinte);
     }//GEN-LAST:event_jButton8ActionPerformed
     //Botón de reiniciar el crono
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -484,6 +497,9 @@ String k;
             public void actionPerformed(ActionEvent e) {
                 jLabel6.setText(String.valueOf(k));
                 k--;
+                for (int i = 0; i<417; i++) {
+                    jLabel7.setText(palabras.get(i));
+                }
             }
         });
         t.start();
@@ -503,6 +519,9 @@ String k;
             public void actionPerformed(ActionEvent e) {
                 jLabel10.setText(String.valueOf(k));
                 k--;
+                for (int x = 0; x<49; x++) {
+                    jLabel11.setText(tematica.get(x));
+                }
             }
         });
         t.start();
