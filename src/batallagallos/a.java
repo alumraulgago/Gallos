@@ -29,10 +29,11 @@ public class a extends javax.swing.JFrame {
     String cientoVeinte = "120";
     String cientoOchenta = "180";
     Timer t;
+    Timer b;
     public a() {
         initComponents();
         setExtendedState(JFrame.MAXIMIZED_BOTH);
-        setLocationRelativeTo(this);
+        
     }
     
     
@@ -74,10 +75,9 @@ public class a extends javax.swing.JFrame {
         jButton16 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1390, 700));
         setResizable(false);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/Fondo2.jpeg"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/85x80.jpeg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -89,7 +89,7 @@ public class a extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addComponent(jLabel12)
-                .addGap(0, 33, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("tab4", jPanel4);
@@ -171,14 +171,14 @@ public class a extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(620, 620, 620)
                         .addComponent(jLabel3)))
-                .addContainerGap(458, Short.MAX_VALUE))
+                .addContainerGap(862, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(170, 170, 170)
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 285, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 505, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -262,7 +262,7 @@ public class a extends javax.swing.JFrame {
                         .addComponent(jLabel5)
                         .addGap(215, 215, 215))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 1093, Short.MAX_VALUE)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 1295, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -276,7 +276,7 @@ public class a extends javax.swing.JFrame {
                             .addComponent(jButton12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(206, Short.MAX_VALUE))
+                .addContainerGap(408, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -291,7 +291,7 @@ public class a extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(189, 189, 189)
                         .addComponent(jLabel7)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 188, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 408, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -370,7 +370,7 @@ public class a extends javax.swing.JFrame {
                         .addComponent(jLabel9)
                         .addGap(215, 215, 215))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 1093, Short.MAX_VALUE)
+                        .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 1295, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
@@ -384,7 +384,7 @@ public class a extends javax.swing.JFrame {
                             .addComponent(jButton15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(206, Short.MAX_VALUE))
+                .addContainerGap(408, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -399,7 +399,7 @@ public class a extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(189, 189, 189)
                         .addComponent(jLabel11)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 188, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 408, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -496,21 +496,29 @@ public class a extends javax.swing.JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 jLabel6.setText(String.valueOf(k));
-                k--;
-                for (int i = 0; i<417; i++) {
-                    jLabel7.setText(palabras.get(i));
-                }
+                k--; 
             }
         });
+        b = new Timer(11000, new ActionListener() {
+           @Override
+           public void actionPerformed(ActionEvent e) {
+               Random aleatorio = new Random();
+               String palabraAleatoria = palabras.get(aleatorio.nextInt(palabras.size()));
+               jLabel7.setText(palabraAleatoria);
+           }
+        });
         t.start();
+        b.start();
     }//GEN-LAST:event_jButton11ActionPerformed
     //Botón para reiniciar el crono de la pantalla palabras
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         jLabel6.setText("0");
+        jLabel7.setText("Palabras");
     }//GEN-LAST:event_jButton12ActionPerformed
     //Botón que pausa el crono de la pantalla palabras
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         t.stop();
+        b.stop();
     }//GEN-LAST:event_jButton13ActionPerformed
     //Botón para iniciar el crono de la pantalla temática
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
@@ -519,20 +527,29 @@ public class a extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e) {
                 jLabel10.setText(String.valueOf(k));
                 k--;
-                for (int x = 0; x<49; x++) {
-                    jLabel11.setText(tematica.get(x));
-                }
             }
+          
+        });
+        b = new Timer(11000, new ActionListener() {
+           @Override
+           public void actionPerformed(ActionEvent e) {
+               Random aleatorio = new Random();
+               String tematicaAleatoria = tematica.get(aleatorio.nextInt(tematica.size()));
+               jLabel11.setText(tematicaAleatoria);
+           }
         });
         t.start();
+        b.start();
     }//GEN-LAST:event_jButton14ActionPerformed
     //Botón para reiniciar el crono de la pantalla temática
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         jLabel10.setText("0");
+        jLabel11.setText("Temática");
     }//GEN-LAST:event_jButton15ActionPerformed
     //Botón que pausa el crono de la pantalla temática
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         t.stop();
+        b.stop();
     }//GEN-LAST:event_jButton16ActionPerformed
     
     public static void main(String args[]) {
