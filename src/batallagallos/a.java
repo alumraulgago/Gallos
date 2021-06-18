@@ -5,6 +5,7 @@
  */
 package batallagallos;
 
+import java.awt.Color;
 import java.util.List;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -28,10 +29,12 @@ public class a extends javax.swing.JFrame {
     String sesenta = "60";
     String cientoVeinte = "120";
     String cientoOchenta = "180";
+    String cero = "0";
     Timer t;
     Timer b;
     public a() {
         initComponents();
+        
         setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
     
@@ -47,10 +50,10 @@ public class a extends javax.swing.JFrame {
         jButton17 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
         jButton19 = new javax.swing.JButton();
-        jLabel15 = new javax.swing.JLabel();
         jButton20 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
         jButton22 = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
@@ -120,11 +123,6 @@ public class a extends javax.swing.JFrame {
         });
         jPanel5.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 500, -1, -1));
 
-        jLabel15.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(240, 240, 240));
-        jLabel15.setText("   0 ");
-        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 240, -1, -1));
-
         jButton20.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton20.setText("Iniciar");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
@@ -152,6 +150,14 @@ public class a extends javax.swing.JFrame {
         });
         jPanel5.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1220, 600, 100, -1));
 
+        jLabel15.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel15.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setText("0 ");
+        jLabel15.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 166, 260, 210));
+
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONOMETRO.jpg"))); // NOI18N
         jPanel5.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -170, 1920, 1080));
 
@@ -161,8 +167,11 @@ public class a extends javax.swing.JFrame {
 
         jLabel16.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("0");
-        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 250, -1, -1));
+        jLabel16.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 197, 180, 160));
 
         jLabel17.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(240, 240, 240));
@@ -221,13 +230,17 @@ public class a extends javax.swing.JFrame {
 
         jLabel18.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel18.setText("0");
-        jPanel6.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 250, -1, -1));
+        jLabel18.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel6.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 197, 180, 160));
 
         jLabel19.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel19.setText("Temática");
-        jPanel6.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 260, -1, -1));
+        jLabel19.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel6.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(982, 210, 350, 140));
 
         jButton10.setText("60");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -327,7 +340,8 @@ public class a extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton20ActionPerformed
     //BOTÓN QUE REINICIA EL VALOR DEL LABEL DE LA PANTALLA CRONO
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        jLabel15.setText("0");
+        jLabel15.setText(cero);
+        k = Integer.parseInt(cero);
     }//GEN-LAST:event_jButton21ActionPerformed
     //BOTÓN PARA PAUSAR EL CRONO DE LA PANTALLA CRONO
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
@@ -370,7 +384,8 @@ public class a extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton23ActionPerformed
     //BOTÓN QUE REINICIA EL VALOR DE LOS LABEL DE PALABRAS Y CRONO DE LA PANTALLA PALABRAS
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
-        jLabel16.setText("0");
+        jLabel16.setText(cero);
+        k = Integer.parseInt(cero);
         jLabel17.setText("Palabras");
     }//GEN-LAST:event_jButton24ActionPerformed
     //BOTÓN QUE PAUSA EL CRONO Y LAS PALABRAS DE LA PANTALLA PALABRAS
@@ -415,7 +430,8 @@ public class a extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton27ActionPerformed
     //BOTÓN QUE REINICIA LOS VALORES DE LOS LABEL DE CRONO Y TEMÁTICA DE LA PANTALLA TEMÁTICA
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
-        jLabel18.setText("0");
+        jLabel18.setText(cero);
+        k = Integer.parseInt(cero);
         jLabel19.setText("Temática");
     }//GEN-LAST:event_jButton28ActionPerformed
     //BOTÓN QUE PAUSA EL CRONO Y LA TEMÁTICA DE LA PANTALLA TEMÁTICA
