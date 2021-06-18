@@ -10,6 +10,7 @@ import java.util.List;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 import javax.swing.JFrame;
 import javax.swing.Timer;
@@ -23,15 +24,14 @@ public class a extends javax.swing.JFrame {
     /**
      * Creates new form a
      */
-    List<String> palabras = new ArrayList<String>(List.of("Altar","Administrar","Afectar","Apoyar","Arreglar","Celebrar","Charlar","Combinar","Contactar","Contestar","Demostrar","Derrumbar","Desencadenar","Erradicar","Escapar","Estudiar","Expulsar","Forrar","Impacientar","Llenar","Modificar","Organizar","Reiniciar","Reparar","Saquear","Silenciar","Simplificar","Soltar","Iluminar","Ampliar","Chulear","Condimentar","Cuidar","Declarar","Deleitar","Denegar","Desordenar","Despistar","Destinar","Disparar","Impresionar","Jurar","Ligar","Machacar","Marear","Prolongar","Rechazar","Registrar","Valorar","Volar","Delimitar","Pasar","Hogar","Abandonar","Ahogar","Anticipar","Anunciar","Callar","Cascar","Cesar","Curiosear","Diseñar","Empaquetar","Empujar","Espabilar","Estrellar","Exportar","Fabricar","Invitar","Liberar","Progresar","Quebrantar","Racanear","Reinstalar","Renunciar","Revitalizar","Trabajar","Collar","Acaparar","Agradar","Concursar","Contemplar","Cosechar","Desinflar","Falsificar","Ocupar","Asegurar","Alertar","Subastar","Subrayar","Superar","Ayer","Mujer","Absorber","Aparecer","Caer","Carecer","Comer","Cometer","Conceder","Convencer","Defender","Desaparecer","Desfallecer","Detener","Disolver","Distraer","Escoger","Nacer","Parecer","Romper","Socorrer","Valer","Vencer","Ver","Llover","Alquiler","Mercader","Aprender","Compadecer","Comparecer","Comprender","Conocer","Descender","Doler","Encender","Envejecer","Extraer","Mover","Obtener","Ofrecer","Perder","Prender","Pretender","Proceder","Proveer","Remover","Responder","Retroceder","Saber","Aseo","Balanceo","Boxeo","Cacareo","Cachondeo","Coqueteo","Cotilleo","Papeleo","Paseo","Picoteo","Pisoteo","Rastreo","Regateo","Ronroneo","Saqueo","Tiroteo","Vapuleo","Veraneo","Bromeo","Piropeo","Poseo","Proveo","Saboreo","Saboteo","Telefoneo","Tonteo","Actualidad","Compatibilidad","Creatividad","Dificultad","Dignidad","Generosidad","Inferioridad","Irresponsabilidad","Nacionalidad","Necesidad","Obscuridad","Oportunidad","Piedad","Selectividad","Sensibilidad","Voluntad","Vulgaridad","Aterrador","Coliflor","Conquistador","Coordinador","Corredor","Desenterrador","Devastador","Diseñador","Divulgador","Error","Gladiador","Historiador","Humor","Impostor","Leñador","Locomotor","Luchador","Olor","Patinador","Profesor","Temporizador","Terror","Volador","Acogedor","Adiestrador","Admirador","Agotador","Borrador","Cursor","Defensor","Entrenador","Escultor","Esquiador","Evasor","Helador","Ladrador","Licor","Mirador","Operador","Patrocinador","Perdedor","Pintor","Portador","Probador","Progenitor","Reactor","Receptor","Reconquistador","Reparador","Ruiseñor","Seleccionador","Simulador","Sucesor","Sudor","Triunfador","Vapor","Ventilador","Aportación","Atracción","Boquerón","Cañón","Carbón","Contradicción","Conversación","Convicción","División","Evasión","Exclusión","Gritón","Infección","Motivación","Negación","Ocupación","Ración","Recuperación","Revolución","Solución","Invasión","Adoración","Cartón","Ciclón","Civilización","Colisión","Combinación","Decoración","Edición","Explosión","Munición","Nutrición","Precisión","Prisión","Protección","Timón","Tradición","Varón","Resfriado","Amigo","Hermano","Criatura","Ser","Vida","Nacimiento","Naturaleza","Campo","Bosque","Selva","Jungla","Desierto","Costa","Playa","Río","Perro","Oveja","Mono","Ratón","Conejo","Dragón","Ciervo","León","Elefante","Gorrión","Sardina","Atún","Calamar","Insecto","Mosquito","Lagarto","Serpiente","Cocodrilo","Oro","Plata","Plomo","Sal","Barro","Mercado","Servicio","Ciencia","Historia","Geografía","Educación","Deporte","Carrera","Competición","Ayuda","Tema","Caso","Creación","Destrucción","Sentido","Sensación","Conciencia","Percepción","Fuerza","Potencia","Presencia","Existencia","Experiencia","Posibilidad","Probabilidad","Verdad","Mentira","Razón","Acierto","Equivocación","Falta","Significado","Carácter","Personalidad","Pensamiento","Memoria","Recuerdo","Deseo","Alegría","Manual","Purga","España","Europa","Teléfono","Número","Bobo","Juez","Libros","Refrescos","Consola","Mando","Presidente","Ministro","Monarca","Botiquín","Pistola","Gancho","Espada","Arco","Flecha","Armadura","Roble","Aeropuerto","Ladrido","Lamborghini","Adidas","Nike","Oso","Tanque","Avioneta","Arcoíris","Calendario","Ubrique","Cádiz","Cerveza","Cristal","Caramelo","Tenis","Fútbol","Baloncesto","Roca","Papel","Tijeras","Piedra","Mineral","Agua","Derrota","Victoria","Ejército","Electricidad","Impuestos","Fruta","Familia","Templo","Monumento","Muralla","Muro","Ventana","Barrotes","Bandera"));
-    List<String> tematica = new ArrayList<String>(List.of("Futbol", "Salud", "Alcohol", "Universidad", "Historia", "Arte", "Libertad", "Naturaleza", "Religión", "Robos", "Superhéroes", "Villanos", "España", "Andalucía"," Animales", "Videojuegos", "Series", "Deportes", "Guerra", "Monumentos", "Internet", "Educación", "Bullying", "Comida", "Paranormal", "Ropa", "Marcas", "Coches", "Armas", "Tiempo", "Cádiz", "Tecnología", "Famosos", "Primavera", "Verano", "Invierno", "Otoño", "Playa", "Dinero", "Amor", "Juguetes", "Magia", "Música", "Sentimientos","Muerte","Vida","Dibujos Animados","Ciudades","Países"));
+    List<String> palabras = Arrays.asList("Altar","Administrar","Afectar","Apoyar","Arreglar","Celebrar","Charlar","Combinar","Contactar","Contestar","Demostrar","Derrumbar","Desencadenar","Erradicar","Escapar","Estudiar","Expulsar","Forrar","Impacientar","Llenar","Modificar","Organizar","Reiniciar","Reparar","Saquear","Silenciar","Simplificar","Soltar","Iluminar","Ampliar","Chulear","Condimentar","Cuidar","Declarar","Deleitar","Denegar","Desordenar","Despistar","Destinar","Disparar","Impresionar","Jurar","Ligar","Machacar","Marear","Prolongar","Rechazar","Registrar","Valorar","Volar","Delimitar","Pasar","Hogar","Abandonar","Ahogar","Anticipar","Anunciar","Callar","Cascar","Cesar","Curiosear","Diseñar","Empaquetar","Empujar","Espabilar","Estrellar","Exportar","Fabricar","Invitar","Liberar","Progresar","Quebrantar","Racanear","Reinstalar","Renunciar","Revitalizar","Trabajar","Collar","Acaparar","Agradar","Concursar","Contemplar","Cosechar","Desinflar","Falsificar","Ocupar","Asegurar","Alertar","Subastar","Subrayar","Superar","Ayer","Mujer","Absorber","Aparecer","Caer","Carecer","Comer","Cometer","Conceder","Convencer","Defender","Desaparecer","Desfallecer","Detener","Disolver","Distraer","Escoger","Nacer","Parecer","Romper","Socorrer","Valer","Vencer","Ver","Llover","Alquiler","Mercader","Aprender","Compadecer","Comparecer","Comprender","Conocer","Descender","Doler","Encender","Envejecer","Extraer","Mover","Obtener","Ofrecer","Perder","Prender","Pretender","Proceder","Proveer","Remover","Responder","Retroceder","Saber","Aseo","Balanceo","Boxeo","Cacareo","Cachondeo","Coqueteo","Cotilleo","Papeleo","Paseo","Picoteo","Pisoteo","Rastreo","Regateo","Ronroneo","Saqueo","Tiroteo","Vapuleo","Veraneo","Bromeo","Piropeo","Poseo","Proveo","Saboreo","Saboteo","Telefoneo","Tonteo","Actualidad","Compatibilidad","Creatividad","Dificultad","Dignidad","Generosidad","Inferioridad","Irresponsabilidad","Nacionalidad","Necesidad","Obscuridad","Oportunidad","Piedad","Selectividad","Sensibilidad","Voluntad","Vulgaridad","Aterrador","Coliflor","Conquistador","Coordinador","Corredor","Desenterrador","Devastador","Diseñador","Divulgador","Error","Gladiador","Historiador","Humor","Impostor","Leñador","Locomotor","Luchador","Olor","Patinador","Profesor","Temporizador","Terror","Volador","Acogedor","Adiestrador","Admirador","Agotador","Borrador","Cursor","Defensor","Entrenador","Escultor","Esquiador","Evasor","Helador","Ladrador","Licor","Mirador","Operador","Patrocinador","Perdedor","Pintor","Portador","Probador","Progenitor","Reactor","Receptor","Reconquistador","Reparador","Ruiseñor","Seleccionador","Simulador","Sucesor","Sudor","Triunfador","Vapor","Ventilador","Aportación","Atracción","Boquerón","Cañón","Carbón","Contradicción","Conversación","Convicción","División","Evasión","Exclusión","Gritón","Infección","Motivación","Negación","Ocupación","Ración","Recuperación","Revolución","Solución","Invasión","Adoración","Cartón","Ciclón","Civilización","Colisión","Combinación","Decoración","Edición","Explosión","Munición","Nutrición","Precisión","Prisión","Protección","Timón","Tradición","Varón","Resfriado","Amigo","Hermano","Criatura","Ser","Vida","Nacimiento","Naturaleza","Campo","Bosque","Selva","Jungla","Desierto","Costa","Playa","Río","Perro","Oveja","Mono","Ratón","Conejo","Dragón","Ciervo","León","Elefante","Gorrión","Sardina","Atún","Calamar","Insecto","Mosquito","Lagarto","Serpiente","Cocodrilo","Oro","Plata","Plomo","Sal","Barro","Mercado","Servicio","Ciencia","Historia","Geografía","Educación","Deporte","Carrera","Competición","Ayuda","Tema","Caso","Creación","Destrucción","Sentido","Sensación","Conciencia","Percepción","Fuerza","Potencia","Presencia","Existencia","Experiencia","Posibilidad","Probabilidad","Verdad","Mentira","Razón","Acierto","Equivocación","Falta","Significado","Carácter","Personalidad","Pensamiento","Memoria","Recuerdo","Deseo","Alegría","Manual","Purga","España","Europa","Teléfono","Número","Bobo","Juez","Libros","Refrescos","Consola","Mando","Presidente","Ministro","Monarca","Botiquín","Pistola","Gancho","Espada","Arco","Flecha","Armadura","Roble","Aeropuerto","Ladrido","Lamborghini","Adidas","Nike","Oso","Tanque","Avioneta","Arcoíris","Calendario","Ubrique","Cádiz","Cerveza","Cristal","Caramelo","Tenis","Fútbol","Baloncesto","Roca","Papel","Tijeras","Piedra","Mineral","Agua","Derrota","Victoria","Ejército","Electricidad","Impuestos","Fruta","Familia","Templo","Monumento","Muralla","Muro","Ventana","Barrotes","Bandera");
+    List<String> tematica = Arrays.asList("Futbol", "Salud", "Alcohol", "Universidad", "Historia", "Arte", "Libertad", "Naturaleza", "Religión", "Robos", "Superhéroes", "Villanos", "España", "Andalucía"," Animales", "Videojuegos", "Series", "Deportes", "Guerra", "Monumentos", "Internet", "Educación", "Bullying", "Comida", "Paranormal", "Ropa", "Marcas", "Coches", "Armas", "Tiempo", "Cádiz", "Tecnología", "Famosos", "Primavera", "Verano", "Invierno", "Otoño", "Playa", "Dinero", "Amor", "Juguetes", "Magia", "Música", "Sentimientos","Muerte","Vida","Dibujos Animados","Ciudades","Países");
     int k;
     String sesenta = "60";
     String cientoVeinte = "120";
     String cientoOchenta = "180";
     String cero = "0";
     Timer t;
-    Timer b;
     public a() {
         initComponents();
         
@@ -363,24 +363,20 @@ public class a extends javax.swing.JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 jLabel16.setText(String.valueOf(k));
+                
+                if (k != 0 && k % 10 == 0) {
+                    Random aleatorio = new Random();
+                    String palabraAleatoria = palabras.get(aleatorio.nextInt(palabras.size()));
+                    jLabel17.setText(palabraAleatoria);
+                }
                 k--;
                 if(k == -1) {
                     t.stop();
                     jLabel16.setText("TIEMPO");
-                    b.stop();
                 }
             }
         });
-        b = new Timer(11000, new ActionListener() {
-           @Override
-           public void actionPerformed(ActionEvent e) {
-               Random aleatorio = new Random();
-               String palabraAleatoria = palabras.get(aleatorio.nextInt(palabras.size()));
-               jLabel17.setText(palabraAleatoria);
-           }
-        });
         t.start();
-        b.start();
     }//GEN-LAST:event_jButton23ActionPerformed
     //BOTÓN QUE REINICIA EL VALOR DE LOS LABEL DE PALABRAS Y CRONO DE LA PANTALLA PALABRAS
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
@@ -391,7 +387,6 @@ public class a extends javax.swing.JFrame {
     //BOTÓN QUE PAUSA EL CRONO Y LAS PALABRAS DE LA PANTALLA PALABRAS
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
         t.stop();
-        b.stop();
     }//GEN-LAST:event_jButton25ActionPerformed
     //BOTÓN QUE PONE EN 60 EL VALOR DEL CRONO DE LA PANTALLA TEMÁTICA
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
@@ -409,24 +404,21 @@ public class a extends javax.swing.JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 jLabel18.setText(String.valueOf(k));
+                if (k != 0 && k % 10 == 0) {
+                    Random aleatorio = new Random();
+                    String palabraAleatoria = tematica.get(aleatorio.nextInt(tematica.size()));
+                    jLabel19.setText(palabraAleatoria);
+                    
+                }
                 k--;
                 if(k == -1) {
                     t.stop();
                     jLabel18.setText("TIEMPO");
-                    b.stop();
+                   
                 }
             }
         });
-        b = new Timer(11000, new ActionListener() {
-           @Override
-           public void actionPerformed(ActionEvent e) {
-               Random aleatorio = new Random();
-               String tematicaAleatoria = tematica.get(aleatorio.nextInt(tematica.size()));
-               jLabel19.setText(tematicaAleatoria);
-           }
-        });
         t.start();
-        b.start();
     }//GEN-LAST:event_jButton27ActionPerformed
     //BOTÓN QUE REINICIA LOS VALORES DE LOS LABEL DE CRONO Y TEMÁTICA DE LA PANTALLA TEMÁTICA
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
@@ -437,7 +429,6 @@ public class a extends javax.swing.JFrame {
     //BOTÓN QUE PAUSA EL CRONO Y LA TEMÁTICA DE LA PANTALLA TEMÁTICA
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         t.stop();
-        b.stop();
     }//GEN-LAST:event_jButton29ActionPerformed
     
     public static void main(String args[]) {
