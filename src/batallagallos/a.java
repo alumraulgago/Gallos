@@ -33,7 +33,6 @@ public class a extends javax.swing.JFrame {
     public a() {
         initComponents();
         setExtendedState(JFrame.MAXIMIZED_BOTH);
-        
     }
     
     
@@ -94,7 +93,7 @@ public class a extends javax.swing.JFrame {
 
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton17.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        jButton17.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton17.setText("60");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,7 +102,7 @@ public class a extends javax.swing.JFrame {
         });
         jPanel5.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 500, -1, -1));
 
-        jButton18.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        jButton18.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton18.setText("120");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,7 +111,7 @@ public class a extends javax.swing.JFrame {
         });
         jPanel5.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 500, -1, -1));
 
-        jButton19.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        jButton19.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton19.setText("180");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,8 +122,8 @@ public class a extends javax.swing.JFrame {
 
         jLabel15.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(240, 240, 240));
-        jLabel15.setText("0");
-        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 230, -1, -1));
+        jLabel15.setText("   0 ");
+        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 240, -1, -1));
 
         jButton20.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton20.setText("Iniciar");
@@ -318,6 +317,10 @@ public class a extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e) {
                 jLabel15.setText(String.valueOf(k));
                 k--;
+                if(k == -1) {
+                    t.stop();
+                    jLabel15.setText("TIEMPO");
+                }
             }
         });
         t.start();
@@ -346,7 +349,12 @@ public class a extends javax.swing.JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 jLabel16.setText(String.valueOf(k));
-                k--; 
+                k--;
+                if(k == -1) {
+                    t.stop();
+                    jLabel16.setText("TIEMPO");
+                    b.stop();
+                }
             }
         });
         b = new Timer(11000, new ActionListener() {
@@ -387,8 +395,12 @@ public class a extends javax.swing.JFrame {
             public void actionPerformed(ActionEvent e) {
                 jLabel18.setText(String.valueOf(k));
                 k--;
+                if(k == -1) {
+                    t.stop();
+                    jLabel18.setText("TIEMPO");
+                    b.stop();
+                }
             }
-          
         });
         b = new Timer(11000, new ActionListener() {
            @Override
