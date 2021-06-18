@@ -44,40 +44,38 @@ public class a extends javax.swing.JFrame {
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel4 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
+        jButton17 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
         jButton10 = new javax.swing.JButton();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
+        jButton26 = new javax.swing.JButton();
+        jButton27 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        jButton29 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/85x80.jpeg"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/Fondo.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -92,332 +90,193 @@ public class a extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("tab4", jPanel4);
+        jTabbedPane1.addTab("Inicio", jPanel4);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/publicidadapp.png"))); // NOI18N
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jButton1.setText("60");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jButton17.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        jButton17.setText("60");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jButton17ActionPerformed(evt);
             }
         });
+        jPanel5.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 500, -1, -1));
 
-        jButton2.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jButton2.setText("120");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        jButton18.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        jButton18.setText("120");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                jButton18ActionPerformed(evt);
             }
         });
+        jPanel5.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 500, -1, -1));
 
-        jButton3.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jButton3.setText("180");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        jButton19.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        jButton19.setText("180");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                jButton19ActionPerformed(evt);
             }
         });
+        jPanel5.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 500, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
-        jLabel3.setText("0");
+        jLabel15.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel15.setText("0");
+        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 230, -1, -1));
 
-        jButton6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton6.setText("Iniciar");
+        jButton20.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton20.setText("Iniciar");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+        jPanel5.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1220, 570, 100, -1));
+
+        jButton21.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton21.setText("Reiniciar");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+        jPanel5.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(1220, 630, 100, -1));
+
+        jButton22.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton22.setText("Pausar");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
+        jPanel5.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1220, 600, 100, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONOMETRO.jpg"))); // NOI18N
+        jPanel5.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -170, 1920, 1080));
+
+        jTabbedPane1.addTab("Crono", jPanel5);
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel16.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel16.setText("0");
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 250, -1, -1));
+
+        jLabel17.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel17.setText("Palabras");
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 260, -1, -1));
+
+        jButton6.setText("60");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 590, -1, -1));
 
-        jButton9.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton9.setText("Reiniciar");
+        jButton9.setText("120");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 590, -1, -1));
 
-        jButton10.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton10.setText("Pausar");
+        jButton23.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton23.setText("Iniciar");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 590, 100, -1));
+
+        jButton24.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton24.setText("Reiniciar");
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 650, 100, -1));
+
+        jButton25.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton25.setText("Pausar");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 620, 100, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONO-PALABRA.jpg"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -170, 1920, 1080));
+
+        jTabbedPane1.addTab("Palabras", jPanel1);
+
+        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel18.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel18.setText("0");
+        jPanel6.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 250, -1, -1));
+
+        jLabel19.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel19.setText("Temática");
+        jPanel6.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 260, -1, -1));
+
+        jButton10.setText("60");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton10ActionPerformed(evt);
             }
         });
+        jPanel6.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 590, -1, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(283, 283, 283))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(209, 209, 209)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(301, 301, 301)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(338, 338, 338)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(620, 620, 620)
-                        .addComponent(jLabel3)))
-                .addContainerGap(862, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(170, 170, 170)
-                .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 505, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 35, Short.MAX_VALUE)
-                            .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(44, 44, 44)
-                                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(115, 115, 115))
-        );
-
-        jTabbedPane1.addTab("Crono", jPanel1);
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/publicidadapp.png"))); // NOI18N
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/UO342x302.png"))); // NOI18N
-
-        jLabel6.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
-        jLabel6.setText("0");
-
-        jLabel7.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
-        jLabel7.setText("Palabras");
-
-        jButton4.setText("60");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        jButton26.setText("120");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                jButton26ActionPerformed(evt);
             }
         });
+        jPanel6.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 590, -1, -1));
 
-        jButton5.setText("120");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        jButton27.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton27.setText("Iniciar");
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                jButton27ActionPerformed(evt);
             }
         });
+        jPanel6.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 590, 100, -1));
 
-        jButton11.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton11.setText("Iniciar");
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        jButton28.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton28.setText("Reiniciar");
+        jButton28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                jButton28ActionPerformed(evt);
             }
         });
+        jPanel6.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 650, 100, -1));
 
-        jButton12.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton12.setText("Reiniciar");
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
+        jButton29.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jButton29.setText("Pausar");
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
+                jButton29ActionPerformed(evt);
             }
         });
+        jPanel6.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 620, 100, -1));
 
-        jButton13.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton13.setText("Pausar");
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
-            }
-        });
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONO-PALABRA.jpg"))); // NOI18N
+        jPanel6.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -170, 1920, 1080));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(215, 215, 215)
-                        .addComponent(jLabel6)
-                        .addGap(260, 260, 260)
-                        .addComponent(jLabel5)
-                        .addGap(215, 215, 215))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 1295, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(71, 71, 71)
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel7)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(62, 62, 62)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(408, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(65, 65, 65)
-                        .addComponent(jLabel5))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(189, 189, 189)
-                        .addComponent(jLabel6))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(189, 189, 189)
-                        .addComponent(jLabel7)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 408, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(115, 115, 115))
-        );
-
-        jTabbedPane1.addTab("Palabras", jPanel2);
-
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/publicidadapp.png"))); // NOI18N
-
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/UO342x302.png"))); // NOI18N
-
-        jLabel10.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
-        jLabel10.setText("0");
-
-        jLabel11.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
-        jLabel11.setText("Temática");
-
-        jButton7.setText("60");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
-            }
-        });
-
-        jButton8.setText("120");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
-            }
-        });
-
-        jButton14.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton14.setText("Iniciar");
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
-            }
-        });
-
-        jButton15.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton15.setText("Reiniciar");
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
-            }
-        });
-
-        jButton16.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jButton16.setText("Pausar");
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(215, 215, 215)
-                        .addComponent(jLabel10)
-                        .addGap(260, 260, 260)
-                        .addComponent(jLabel9)
-                        .addGap(215, 215, 215))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 1295, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(71, 71, 71)
-                        .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel11)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(62, 62, 62)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(408, Short.MAX_VALUE))
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(65, 65, 65)
-                        .addComponent(jLabel9))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(189, 189, 189)
-                        .addComponent(jLabel10))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(189, 189, 189)
-                        .addComponent(jLabel11)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 408, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(147, 147, 147))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(115, 115, 115))))
-        );
-
-        jTabbedPane1.addTab("Temática", jPanel3);
+        jTabbedPane1.addTab("Temática", jPanel6);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -432,70 +291,61 @@ public class a extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    //Botón que cambia el cronómetro de la pantalla crono
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       jLabel3.setText(sesenta);
-       k = Integer.parseInt(sesenta);
-    }//GEN-LAST:event_jButton1ActionPerformed
-    //Botón que cambia el cronómetro de la pantalla crono
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        jLabel3.setText(cientoVeinte);
-        k = Integer.parseInt(cientoVeinte);
-    }//GEN-LAST:event_jButton2ActionPerformed
-    //Botón que cambia el cronómetro de la pantalla crono
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        jLabel3.setText(cientoOchenta);
-        k = Integer.parseInt(cientoOchenta);
-    }//GEN-LAST:event_jButton3ActionPerformed
 
-    //Botón que cambia el crono de la pantalla palabras
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        jLabel6.setText(sesenta);
-        k = Integer.parseInt(sesenta);
-    }//GEN-LAST:event_jButton4ActionPerformed
-    
-    //Botón que cambia el crono de la pantalla palabras
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        jLabel6.setText(cientoVeinte);
-        k = Integer.parseInt(cientoVeinte);
-    }//GEN-LAST:event_jButton5ActionPerformed
-    
+   
+   
   
-    //Botón que inicia el cronómetro de la pantalla crono
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    //BOTÓN DEL CRONOMETRO QUE LO PONE A 60
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        jLabel15.setText(sesenta);
+        k = Integer.parseInt(sesenta);
+        System.out.println(sesenta);
+    }//GEN-LAST:event_jButton17ActionPerformed
+    //BOTÓN DEL CRONOMETRO QUE LO PONE A 120
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        jLabel15.setText(cientoVeinte);
+        k = Integer.parseInt(cientoVeinte);
+    }//GEN-LAST:event_jButton18ActionPerformed
+    //BOTÓN DEL CRONOMETRO QUE LO PONE A 180
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        jLabel15.setText(cientoOchenta);
+        k = Integer.parseInt(cientoOchenta);
+    }//GEN-LAST:event_jButton19ActionPerformed
+    //BOTÓN DEL CRONOMETRO QUE LO INICIA
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
         t = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jLabel3.setText(String.valueOf(k));
+                jLabel15.setText(String.valueOf(k));
                 k--;
             }
         });
         t.start();
-    }//GEN-LAST:event_jButton6ActionPerformed
-    //Botón que pone a 60 el crono de tematica
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        jLabel10.setText(sesenta);
-        k = Integer.parseInt(sesenta);
-    }//GEN-LAST:event_jButton7ActionPerformed
-    //Botón que pone a 120 el crono de tematica
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        jLabel10.setText(cientoVeinte);
-        k = Integer.parseInt(cientoVeinte);
-    }//GEN-LAST:event_jButton8ActionPerformed
-    //Botón de reiniciar el crono
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        jLabel3.setText("0");
-    }//GEN-LAST:event_jButton9ActionPerformed
-    //Botón de pausar el crono
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+    }//GEN-LAST:event_jButton20ActionPerformed
+    //BOTÓN QUE REINICIA EL VALOR DEL LABEL DE LA PANTALLA CRONO
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        jLabel15.setText("0");
+    }//GEN-LAST:event_jButton21ActionPerformed
+    //BOTÓN PARA PAUSAR EL CRONO DE LA PANTALLA CRONO
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
         t.stop();
-    }//GEN-LAST:event_jButton10ActionPerformed
-    //Botón de iniciar el crono de la pantalla palabras
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+    }//GEN-LAST:event_jButton22ActionPerformed
+    //BOTÓN PARA PONER EL VALOR DEL CRONO DE LA PANTALLA PALABRAS A 60
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        jLabel16.setText(sesenta);
+        k = Integer.parseInt(sesenta);
+    }//GEN-LAST:event_jButton6ActionPerformed
+    //BOTÓN PARA PONER EL VALOR DEL CRONO DE LA PANTALLA PALABRAS A 120
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        jLabel16.setText(cientoVeinte);
+        k = Integer.parseInt(cientoVeinte);
+    }//GEN-LAST:event_jButton9ActionPerformed
+    //BOTÓN QUE INICIA LAS PALABRAS Y EL CRONO DE LA PANTALLA PALABRAS
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
         t = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jLabel6.setText(String.valueOf(k));
+                jLabel16.setText(String.valueOf(k));
                 k--; 
             }
         });
@@ -504,28 +354,38 @@ public class a extends javax.swing.JFrame {
            public void actionPerformed(ActionEvent e) {
                Random aleatorio = new Random();
                String palabraAleatoria = palabras.get(aleatorio.nextInt(palabras.size()));
-               jLabel7.setText(palabraAleatoria);
+               jLabel17.setText(palabraAleatoria);
            }
         });
         t.start();
         b.start();
-    }//GEN-LAST:event_jButton11ActionPerformed
-    //Botón para reiniciar el crono de la pantalla palabras
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        jLabel6.setText("0");
-        jLabel7.setText("Palabras");
-    }//GEN-LAST:event_jButton12ActionPerformed
-    //Botón que pausa el crono de la pantalla palabras
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+    }//GEN-LAST:event_jButton23ActionPerformed
+    //BOTÓN QUE REINICIA EL VALOR DE LOS LABEL DE PALABRAS Y CRONO DE LA PANTALLA PALABRAS
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        jLabel16.setText("0");
+        jLabel17.setText("Palabras");
+    }//GEN-LAST:event_jButton24ActionPerformed
+    //BOTÓN QUE PAUSA EL CRONO Y LAS PALABRAS DE LA PANTALLA PALABRAS
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
         t.stop();
         b.stop();
-    }//GEN-LAST:event_jButton13ActionPerformed
-    //Botón para iniciar el crono de la pantalla temática
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+    }//GEN-LAST:event_jButton25ActionPerformed
+    //BOTÓN QUE PONE EN 60 EL VALOR DEL CRONO DE LA PANTALLA TEMÁTICA
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        jLabel18.setText(sesenta);
+        k = Integer.parseInt(sesenta);
+    }//GEN-LAST:event_jButton10ActionPerformed
+    //BOTÓN QUE PONE EN 120 EL VALOR DEL CRONO DE LA PANTALLA TEMÁTICA
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        jLabel18.setText(cientoVeinte);
+        k = Integer.parseInt(cientoVeinte);
+    }//GEN-LAST:event_jButton26ActionPerformed
+    //BOTÓN QUE INICIA EL CRONO Y LA TEMÁTICA DE LA PANTALLA TEMÁTICA
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
         t = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jLabel10.setText(String.valueOf(k));
+                jLabel18.setText(String.valueOf(k));
                 k--;
             }
           
@@ -535,22 +395,22 @@ public class a extends javax.swing.JFrame {
            public void actionPerformed(ActionEvent e) {
                Random aleatorio = new Random();
                String tematicaAleatoria = tematica.get(aleatorio.nextInt(tematica.size()));
-               jLabel11.setText(tematicaAleatoria);
+               jLabel19.setText(tematicaAleatoria);
            }
         });
         t.start();
         b.start();
-    }//GEN-LAST:event_jButton14ActionPerformed
-    //Botón para reiniciar el crono de la pantalla temática
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        jLabel10.setText("0");
-        jLabel11.setText("Temática");
-    }//GEN-LAST:event_jButton15ActionPerformed
-    //Botón que pausa el crono de la pantalla temática
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+    }//GEN-LAST:event_jButton27ActionPerformed
+    //BOTÓN QUE REINICIA LOS VALORES DE LOS LABEL DE CRONO Y TEMÁTICA DE LA PANTALLA TEMÁTICA
+    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        jLabel18.setText("0");
+        jLabel19.setText("Temática");
+    }//GEN-LAST:event_jButton28ActionPerformed
+    //BOTÓN QUE PAUSA EL CRONO Y LA TEMÁTICA DE LA PANTALLA TEMÁTICA
+    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         t.stop();
         b.stop();
-    }//GEN-LAST:event_jButton16ActionPerformed
+    }//GEN-LAST:event_jButton29ActionPerformed
     
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -585,37 +445,35 @@ public class a extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JTabbedPane jTabbedPane1;
     // End of variables declaration//GEN-END:variables
 }
