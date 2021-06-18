@@ -328,6 +328,7 @@ public class a extends javax.swing.JFrame {
         t = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                jButton20.setVisible(false);
                 jLabel15.setText(String.valueOf(k));
                 k--;
                 if(k == -1) {
@@ -340,6 +341,7 @@ public class a extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton20ActionPerformed
     //BOTÓN QUE REINICIA EL VALOR DEL LABEL DE LA PANTALLA CRONO
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        jButton20.setVisible(true);
         jLabel15.setText(cero);
         k = Integer.parseInt(cero);
     }//GEN-LAST:event_jButton21ActionPerformed
@@ -359,11 +361,11 @@ public class a extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton9ActionPerformed
     //BOTÓN QUE INICIA LAS PALABRAS Y EL CRONO DE LA PANTALLA PALABRAS
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        jButton23.setVisible(false);
         t = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 jLabel16.setText(String.valueOf(k));
-                
                 if (k != 0 && k % 10 == 0) {
                     Random aleatorio = new Random();
                     String palabraAleatoria = palabras.get(aleatorio.nextInt(palabras.size()));
@@ -380,6 +382,7 @@ public class a extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton23ActionPerformed
     //BOTÓN QUE REINICIA EL VALOR DE LOS LABEL DE PALABRAS Y CRONO DE LA PANTALLA PALABRAS
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        jButton23.setVisible(true);
         jLabel16.setText(cero);
         k = Integer.parseInt(cero);
         jLabel17.setText("Palabras");
@@ -403,6 +406,7 @@ public class a extends javax.swing.JFrame {
         t = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                jButton27.setVisible(false);
                 jLabel18.setText(String.valueOf(k));
                 if (k != 0 && k % 10 == 0) {
                     Random aleatorio = new Random();
@@ -422,6 +426,7 @@ public class a extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton27ActionPerformed
     //BOTÓN QUE REINICIA LOS VALORES DE LOS LABEL DE CRONO Y TEMÁTICA DE LA PANTALLA TEMÁTICA
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        jButton27.setVisible(true);
         jLabel18.setText(cero);
         k = Integer.parseInt(cero);
         jLabel19.setText("Temática");
