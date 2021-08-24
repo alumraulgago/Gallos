@@ -81,7 +81,7 @@ public class a extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/Fondo.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/Principal.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -107,7 +107,7 @@ public class a extends javax.swing.JFrame {
                 jButton17ActionPerformed(evt);
             }
         });
-        jPanel5.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 500, -1, -1));
+        jPanel5.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 580, -1, -1));
 
         jButton18.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton18.setText("120");
@@ -116,7 +116,7 @@ public class a extends javax.swing.JFrame {
                 jButton18ActionPerformed(evt);
             }
         });
-        jPanel5.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 500, -1, -1));
+        jPanel5.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 580, -1, -1));
 
         jButton19.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton19.setText("180");
@@ -125,7 +125,7 @@ public class a extends javax.swing.JFrame {
                 jButton19ActionPerformed(evt);
             }
         });
-        jPanel5.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 500, -1, -1));
+        jPanel5.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 580, -1, -1));
 
         jButton20.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jButton20.setText("Iniciar");
@@ -160,10 +160,10 @@ public class a extends javax.swing.JFrame {
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("0 ");
         jLabel15.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 166, 260, 210));
+        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 190, 260, 210));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONOMETRO.jpg"))); // NOI18N
-        jPanel5.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -170, 1920, 1080));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONOMETRO.gif"))); // NOI18N
+        jPanel5.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-240, -130, 1920, 1080));
 
         jTabbedPane1.addTab("Crono", jPanel5);
 
@@ -175,12 +175,13 @@ public class a extends javax.swing.JFrame {
         jLabel16.setText("0");
         jLabel16.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jLabel16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 197, 180, 160));
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, 180, 160));
 
         jLabel17.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(240, 240, 240));
+        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel17.setText("Palabras");
-        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 260, -1, -1));
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 260, 360, 180));
 
         jButton6.setText("60");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -225,8 +226,8 @@ public class a extends javax.swing.JFrame {
         });
         jPanel1.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 620, 100, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONO-PALABRA.jpg"))); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -170, 1920, 1080));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONO-PALABRA-FINAL_1.gif"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -160, 1920, 1080));
 
         jTabbedPane1.addTab("Palabras", jPanel1);
 
@@ -237,14 +238,14 @@ public class a extends javax.swing.JFrame {
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel18.setText("0");
         jLabel18.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel6.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(182, 197, 180, 160));
+        jPanel6.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, 180, 160));
 
         jLabel19.setFont(new java.awt.Font("Arial", 1, 40)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(240, 240, 240));
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel19.setText("Temática");
         jLabel19.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanel6.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(982, 210, 350, 140));
+        jPanel6.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 260, 360, 180));
 
         jButton10.setText("60");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -289,8 +290,8 @@ public class a extends javax.swing.JFrame {
         });
         jPanel6.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 620, 100, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONO-PALABRA.jpg"))); // NOI18N
-        jPanel6.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -170, 1920, 1080));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/CRONO-PALABRA-FINAL_1.gif"))); // NOI18N
+        jPanel6.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -160, 1920, 1080));
 
         jTabbedPane1.addTab("Temática", jPanel6);
 
